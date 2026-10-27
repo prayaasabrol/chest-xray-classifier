@@ -1,0 +1,15 @@
+﻿# Data and model weights (too large for git)
+data/
+checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Secrets and local files
+kaggle.json
+.env
+
+# Editor
+.vscode/

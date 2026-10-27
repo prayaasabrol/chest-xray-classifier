@@ -1,0 +1,21 @@
+﻿# Install PyTorch first (see README), matching your CUDA build:
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu126
+# Tested with torch 2.14.0 and torchvision 0.29.0 (CUDA 12.6)
+
+numpy==2.4.6
+pandas==3.0.5
+pillow==12.3.0
+scikit-learn==1.9.1
+tqdm==4.70.0
+
+# API
+fastapi==0.143.3
+uvicorn[standard]==0.54.0
+python-multipart==0.0.32
+
+# UI
+streamlit==1.66.0
+requests==2.34.2
+
+# Optional: only needed to download the dataset
+# kaggle==2.2.4
