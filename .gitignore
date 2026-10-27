@@ -1,6 +1,6 @@
 ﻿# Data and model weights (too large for git)
-data/
-checkpoints/
+/data/
+/checkpoints/
 
 # Python
 __pycache__/
